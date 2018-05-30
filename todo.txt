@@ -1,0 +1,22 @@
+To Do:
+* Botnet Profiling:
+  * Farkli time window lar icin dene
+  * Rapor kismi var
+  * Tablolar olustur
+  
+* Anomaly Detection:
+  * Butun senaryolar icin calistir
+  * Bi kisim senaryoyu train e koy, geri kalani uzerinde test et
+    * Train: 3 4 5 7 10 11 12 13
+    * Test:  1 2 6 8 9
+  * Butun senaryolari birlesirip detection yap
+  * Her birini kendi icinde detection yap
+
+* Super Anomali Diteksin:
+  * Anomaly detect ederken direkt hangi senaryoya ait oldugunu da soylesin.
+  * Labellama kisminda 1-0 yerine senaryo nnunmarasini koy
+
+* Show Time:
+  * Detection + profiling
+  * Butun senaryolar uzerinde detection
+    * Detect edilen botnet leri profille
