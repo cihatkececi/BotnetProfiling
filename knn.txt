@@ -1,0 +1,91 @@
+k = 1, train-> samting , test -> asagidakiler
+
+Scenario 1
+Anomaly Detection:
+
+Classification report:
+             precision    recall  f1-score   support
+
+     Botnet       0.73      0.72      0.73       279
+ Background       1.00      1.00      1.00    111698
+
+avg / total       1.00      1.00      1.00    111977
+
+
+Confusion Matrix:
+[[   202     77]
+ [    74 111624]]
+
+***********************************
+
+Scenario 2
+Anomaly Detection:
+
+Classification report:
+             precision    recall  f1-score   support
+
+     Botnet       0.81      0.91      0.85       201
+ Background       1.00      1.00      1.00     71535
+
+avg / total       1.00      1.00      1.00     71736
+
+
+Confusion Matrix:
+[[  182    19]
+ [   43 71492]]
+
+***********************************
+
+Scenario 6
+Anomaly Detection:
+
+Classification report:
+             precision    recall  f1-score   support
+
+     Botnet       0.85      0.91      0.88       120
+ Background       1.00      1.00      1.00     12119
+
+avg / total       1.00      1.00      1.00     12239
+
+
+Confusion Matrix:
+[[  109    11]
+ [   19 12100]]
+
+***********************************
+
+Scenario 8
+Anomaly Detection:
+
+Classification report:
+             precision    recall  f1-score   support
+
+     Botnet       0.69      0.14      0.23      1085
+ Background       0.99      1.00      0.99     85983
+
+avg / total       0.99      0.99      0.98     87068
+
+
+Confusion Matrix:
+[[  149   936]
+ [   66 85917]]
+
+***********************************
+
+Scenario 9
+Anomaly Detection:
+
+Classification report:
+             precision    recall  f1-score   support
+
+     Botnet       0.95      0.70      0.80      1382
+ Background       0.99      1.00      1.00     61166
+
+avg / total       0.99      0.99      0.99     62548
+
+
+Confusion Matrix:
+[[  966   416]
+ [   54 61112]]
+
+***********************************
